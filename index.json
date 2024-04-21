@@ -4163,6 +4163,26 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/tune/FPV_Cam Whoop Setup.txt",
+      "hash": "09eee1a918fd0f6b6aebccb6e9f60ec1086d326ba2a59cfab9678f98aec3fa83",
+      "title": "FPV_Cam Whoop Setup",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Whoop",
+        "65mm",
+        "tune",
+        "acro",
+        "1S"
+      ],
+      "author": "FPV_Cam",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/Street_League_LeadFingers.txt",
       "hash": "b890ead5c02a90680733bf896f43e2dfa2338cb36fa544b5010c272de8e8b785",
       "title": "Street League LeadFingers PIDtoolbox tune",
@@ -5475,6 +5495,26 @@
       ],
       "author": "ZoeFPV",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.5/tune/FPV_Cam Whoop Setup.txt",
+      "hash": "09eee1a918fd0f6b6aebccb6e9f60ec1086d326ba2a59cfab9678f98aec3fa83",
+      "title": "FPV_Cam Whoop Setup",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "Whoop",
+        "65mm",
+        "tune",
+        "acro",
+        "1S"
+      ],
+      "author": "FPV_Cam",
+      "force_options_review": true,
+      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.5/tune/Street_League_LeadFingers.txt",

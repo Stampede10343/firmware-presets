@@ -1,0 +1,42 @@
+#$ TITLE: FPV_Cam Whoop Setup
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: Whoop, 65mm, tune, acro, 1S
+#$ AUTHOR: FPV_Cam
+#$ DESCRIPTION: My defaults for a 65mm whoop
+#$ WARNING: You will need to ensure your ESC firmware supports Bidirectional DSHOT for the RPM limiter
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/454 
+#$ FORCE_OPTIONS_REVIEW: true
+
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+
+
+# serial
+serial 1 131073 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# map
+map TEAR1234
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 2 1300 1700 0 0
+aux 2 13 3 1700 2100 0 0
+aux 3 35 1 1700 2100 0 0
+aux 4 49 1 1300 1700 0 0
+
+
+# rateprofile 0
+set roll_rc_rate = 16
+set roll_srate = 67
+set roll_expo = 10
+set pitch_rc_rate = 16
+set pitch_srate = 67
+set pitch_expo = 10
+set yaw_rc_rate = 16
+set yaw_srate = 67
+set yaw_expo = 10

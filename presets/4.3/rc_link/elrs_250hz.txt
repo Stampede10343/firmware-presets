@@ -24,7 +24,7 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 45
 set feedforward_jitter_factor = 6
 
-#$ OPTION_GROUP BEGIN: Fine-tuning...
+#$ OPTION_GROUP BEGIN (Exclusive): Fine-tuning...
 
 # sharp handling for racing:
 #$ OPTION BEGIN (UNCHECKED): Racing (25 of auto RC smoothing = 140hz RC smoothing)
